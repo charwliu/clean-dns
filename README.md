@@ -1,5 +1,5 @@
 # clean-dns
-Clean DNS with eBPF eBPF 丢弃 *** DNS 污染包
+Clean DNS with eBPF 利用eBPF tc egress/ingress filter丢弃被 ***污染的DNS应答包
 
 <b>在aarch64 Linux上可用，amd64需要修改config.mk。</b>
 <b>内核需要开启eBPF支持。</b>
